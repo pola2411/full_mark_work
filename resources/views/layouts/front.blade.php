@@ -52,5 +52,6 @@
     <script src="{{asset('front/js/bootstrap.bundle.min.js')}}"></script>
     <script src="{{asset('front/js/jquery.js')}}"></script>
     <script src="{{asset('front/js/script.js')}}"></script>
+    @stack('scripts')
   </body>
 </html>

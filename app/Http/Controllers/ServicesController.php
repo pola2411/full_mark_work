@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\order_store;
 use App\Http\Requests\store_services;
+use App\Models\orders;
 use App\Models\Services;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -64,5 +66,20 @@ class ServicesController extends Controller
         $this->total=$data->price ;
         return view('services.show',['data'=>$data,'total'=>$this->total,'status'=>'0']);
        }
+    }
+    public function create_order(order_store $request)
+    {
+        $orders=new orders;
+        $datavalidate=$request->validated();
+
+        $orders->user_id=Auth::user()->id;
+        $orders->service_id=$datavalidate['service_id'];
+        $orders->total=$datavalidate['total'];
+        $orders->transaction_id=$datavalidate['transaction_id'];
+        $orders->transaction_status=$datavalidate['transaction_status'];
+        $orders->save();
+        return redirect()->route('full.mark');
+
+
     }
 }

@@ -29,5 +29,8 @@ Route::prefix('/user')->middleware('auth')->group(function(){
         Route::get('/addservices',[ServicesController::class,'create'])->name('services.create');
     Route::post('/addservices',[ServicesController::class,'store'])->name('services.store');
     Route::post('/addservices/extra',[ServicesController::class,'extra'])->name('services.extra');
+Route::post('/create_order',[ServicesController::class,'create_order'])->name('create.order');
+
 });
+
 Route::get('/user/showservices/{id}',[ServicesController::class,'show'])->name('services.show');
