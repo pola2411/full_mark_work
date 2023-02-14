@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  direction: rtl;
+}
+
+.btn-green {
+  background-color: #83c124;
+  padding: 13px 25px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+}
+
+body {
+  background-color: #f7f8f9;
+}
+
+.work {
+  background-color: white;
+}
+
+.work .header {
+  background-image: url("../images/how-it-works-optimized.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 110px 0px;
+  text-align: center;
+  -webkit-filter: saturate(0.9);
+          filter: saturate(0.9);
+}
+
+.work .header h2 {
+  text-shadow: 0px 0px 10px black;
+  color: white;
+  font-weight: bold;
+}
+
+.work .header p {
+  text-shadow: 0px 0px 10px black;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.work .buyer {
+  margin-top: 60px;
+}
+
+.work .buyer .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.work .buyer .row > div h1 {
+  color: black;
+  font-weight: bold;
+}
+
+.work .buyer .row > div p {
+  color: gray;
+  font-size: 20px;
+  text-align: left;
+}
+
+.work .buyerdetails {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.work .buyerdetails .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.work .buyerdetails .row > div h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.work .buyerdetails .row > div p {
+  color: gray;
+  font-size: 20px;
+  line-height: 2;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .work .header {
+    background-size: cover;
+    padding: 110px 0px;
+  }
+  .work .header h2 {
+    font-size: 30px;
+  }
+  .work .header p {
+    font-size: 14px;
+  }
+  .work .buyer {
+    margin-top: 50px;
+  }
+  .work .buyer .row > div h1 {
+    text-align: center;
+  }
+  .work .buyer .row > div p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  .work .buyerdetails .row > div p {
+    font-size: 16px;
+    line-height: 2;
+  }
+}
+/*# sourceMappingURL=work.css.map */

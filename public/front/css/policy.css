@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  direction: rtl;
+}
+
+body {
+  background-color: #f7f8f9;
+}
+
+.policy {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.policy .container .policy-content {
+  background-color: white;
+  padding: 20px;
+}
+
+.policy .container .policy-content h2 {
+  text-align: right;
+}
+
+.policy .container .policy-content > div h6 {
+  text-decoration: underline;
+}
+
+.policy .container .policy-content > div p {
+  line-height: 2;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.policy .container .policy-content > div ul li {
+  margin: 15px 0px;
+  list-style: none;
+  font-weight: 500;
+}
+/*# sourceMappingURL=policy.css.map */

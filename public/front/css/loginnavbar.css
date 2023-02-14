@@ -1,0 +1,269 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  direction: rtl;
+}
+
+.btn-green {
+  background-color: #83c124;
+  padding: 13px 25px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+}
+
+.loginuser {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loginuser > div {
+  margin: 0px 6px;
+}
+
+.loginuser > div p {
+  cursor: pointer;
+  background-color: #83c124;
+  padding: 8px 10px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+  margin-bottom: 0px !important;
+}
+
+.loginuser > div p sup {
+  background-color: red;
+  color: white;
+  padding: 1px 4px;
+  border-radius: 10px;
+}
+
+.loginuser .notification p {
+  background-color: #2d5767 !important;
+}
+
+.loginuser .notification .dropdown-toggle::after {
+  display: none !important;
+}
+
+.loginuser .notification .dropdown-menu {
+  min-width: 29rem;
+  overflow-y: scroll;
+  height: 300px;
+  text-align: right !important;
+}
+
+.loginuser .notification .dropdown-menu li a {
+  color: black;
+  font-size: 12px;
+  padding: 0rem 1rem;
+}
+
+.loginuser .notification .dropdown-menu li a img {
+  width: 50px;
+  border-radius: 50%;
+  padding-left: 9px;
+}
+
+.loginuser .notification .dropdown-menu li a label span {
+  color: #2d5767;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.loginuser .notification .dropdown-menu li h6 {
+  font-size: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-left: 10px;
+}
+
+.loginuser .message .dropdown-toggle::after {
+  display: none !important;
+}
+
+.loginuser .message .dropdown-menu {
+  min-width: 29rem;
+  overflow-y: scroll;
+  height: 300px;
+  text-align: right !important;
+}
+
+.loginuser .message .dropdown-menu li a {
+  color: black;
+  font-size: 13px;
+  padding: 0rem 1rem;
+}
+
+.loginuser .message .dropdown-menu li a img {
+  width: 50px;
+  border-radius: 50%;
+  padding-left: 9px;
+}
+
+.loginuser .message .dropdown-menu li a label span {
+  color: #2d5767;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.loginuser .message .dropdown-menu li h6 {
+  font-size: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-left: 10px;
+}
+
+.loginuser .porfile img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .loginuser {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .loginuser .btn-danger {
+    padding: 4px 5px !important;
+    font-size: 10px;
+  }
+  .loginuser > div {
+    margin: 0px;
+  }
+  .loginuser > div img {
+    width: 20px;
+  }
+  .loginuser > div p {
+    cursor: pointer;
+    background-color: #83c124;
+    padding: 3px 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 0px !important;
+  }
+  .loginuser > div p sup {
+    background-color: red;
+    color: white;
+    padding: 1px 4px;
+    border-radius: 10px;
+  }
+  .loginuser .notification p {
+    background-color: #2d5767 !important;
+  }
+  .loginuser .notification .dropdown-toggle::after {
+    display: none !important;
+  }
+  .loginuser .notification .nav-link {
+    padding: 0px 10px;
+  }
+  .loginuser .notification .dropdown-menu {
+    min-width: 22rem !important;
+    margin: auto !important;
+    overflow-y: scroll;
+    height: 300px;
+    text-align: center !important;
+  }
+  .loginuser .notification .dropdown-menu li a {
+    color: black;
+    font-size: 7px;
+    padding: 0px !important;
+  }
+  .loginuser .notification .dropdown-menu li a img {
+    width: 30px;
+    border-radius: 50%;
+    padding-left: 9px;
+  }
+  .loginuser .notification .dropdown-menu li a label span {
+    color: #2d5767;
+    font-size: 7px;
+    font-weight: bold;
+  }
+  .loginuser .notification .dropdown-menu li h6 {
+    font-size: 6px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-left: 10px;
+  }
+  .loginuser .message .dropdown-toggle::after {
+    display: none !important;
+  }
+  .loginuser .message .nav-link {
+    padding: 0px 5px;
+  }
+  .loginuser .message .dropdown-menu {
+    min-width: 22rem !important;
+    margin: auto !important;
+    overflow-y: scroll;
+    height: 300px;
+    text-align: right !important;
+  }
+  .loginuser .message .dropdown-menu li a {
+    color: black;
+    font-size: 7px;
+    padding: 0rem 1rem;
+  }
+  .loginuser .message .dropdown-menu li a img {
+    width: 30px;
+    border-radius: 50%;
+    padding-left: 9px;
+  }
+  .loginuser .message .dropdown-menu li a label span {
+    color: #2d5767;
+    font-size: 7px;
+    font-weight: bold;
+  }
+  .loginuser .message .dropdown-menu li h6 {
+    font-size: 6px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-left: 10px;
+  }
+  .loginuser .porfile {
+    margin-right: 10px;
+  }
+  .loginuser .porfile img {
+    width: 40px;
+    border-radius: 50%;
+  }
+}
+/*# sourceMappingURL=loginnavbar.css.map */

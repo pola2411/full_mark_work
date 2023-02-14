@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  direction: rtl;
+}
+// variable
+$primarycolor: #83c124;
+$secondrycolor: #2d5767;
+.btn-green {
+  background-color: $primarycolor;
+  padding: 13px 25px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+}
+body{
+    background-color: #f7f8f9;
+  }
+.news{
+    margin: 30px 0px;
+    .container{
+        .content{
+            background-color: white;
+            padding: 30px 20px;
+        }
+        .no{
+            margin-top: 10px;
+        }
+    }
+    
+}

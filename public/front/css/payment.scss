@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  direction: rtl;
+}
+// variable
+$primarycolor: #83c124;
+$secondrycolor: #2d5767;
+.btn-green {
+  background-color: $primarycolor;
+  padding: 13px 25px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+}
+
+.payment {
+  background-color: rgba(190, 190, 190, 0.226);
+  padding: 10px;
+  .modal{
+    .modal-header {
+      .btn-close{
+        margin: 0px !important;
+      }
+    }
+    .modal-footer{
+      justify-content: center;
+    }
+  }
+  .container {
+    .img {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      h3 {
+        margin-left: 13px;
+        font-weight: 400;
+      }
+      img {
+        width: 60px;
+      }
+    }
+    .row {
+      margin: 40px 0px;
+      justify-content: space-between;
+      .pay {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        >div {
+          color: white;
+          text-decoration: none;
+          cursor: pointer;
+          font-weight: bold;
+          background-color: #0070ba;
+          padding: 10px 19px;
+          border-radius: 3px;
+          img {
+            width: 30px;
+          }
+        }
+        
+      }
+      .paydetails {
+        background-color: white;
+        padding: 30px;
+      }
+    }
+    p {
+      color: $primarycolor;
+      text-align: center;
+      img {
+        margin-left: 3px;
+        width: 30px;
+      }
+    }
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .payment{
+        .pay{
+            margin-bottom: 40px;
+            padding: 40px 0px;
+        }
+    }
+}

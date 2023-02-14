@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  direction: rtl;
+}
+// variable
+$primarycolor: #83c124;
+$secondrycolor: #2d5767;
+.btn-green {
+  background-color: $primarycolor;
+  padding: 13px 25px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+}
+body{
+  background-color: #f7f8f9;
+}
+.work{
+  background-color: white;
+  .header{
+        background-image: url('../images/how-it-works-optimized.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 110px 0px;
+        text-align: center; 
+        filter: saturate(0.9);
+        h2{
+            text-shadow: 0px 0px 10px black;
+            color: white;
+            font-weight: bold;
+        }
+        p{
+            text-shadow: 0px 0px 10px black;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+
+    .buyer{
+      margin-top: 60px;
+      .row{
+        align-items: center;
+        justify-content: space-around;
+        >div{
+          h1{
+            color: black;
+            font-weight: bold;
+          }
+          p{
+            color: gray;
+            font-size: 20px;
+            text-align: left;
+          }
+        }
+      }
+    }
+    
+    .buyerdetails{
+      text-align: left;
+      margin-top: 30px;
+      .row{
+        align-items: center;
+        justify-content: space-between;
+        >div{
+          h5{
+            font-weight: bold;
+            margin-bottom: 10px;
+          }
+          p{
+            color: gray;
+            font-size: 20px;
+            line-height: 2;
+          }
+        }
+      }
+    }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .work{
+    .header{
+        background-size: cover;
+        padding: 110px 0px;
+        h2{
+            font-size: 30px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+
+    .buyer{
+      margin-top: 50px;
+      .row{
+        >div{
+          h1{
+            text-align: center;
+          }
+          p{
+            font-size: 16px;
+            line-height: 1.8;
+          }
+        }
+      }
+    }
+    .buyerdetails{
+      .row{
+        >div{
+          
+          p{
+            font-size: 16px;
+            line-height: 2;
+          }
+        }
+      }
+    }
+}
+}

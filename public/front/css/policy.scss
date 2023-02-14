@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  direction: rtl;
+}
+// variable
+$primarycolor: #83c124;
+$secondrycolor: #2d5767;
+
+body {
+  background-color: #f7f8f9;
+}
+.policy{
+    margin-top: 40px;
+    text-align: left;
+    .container{
+        .policy-content{
+            background-color: white;
+            padding: 20px;
+            h2{
+                text-align: right;
+            }
+            >div{
+                h6{
+                    text-decoration: underline;
+                }
+                p{
+                    line-height:2;
+                    font-weight: 500;
+                    margin-bottom: 20px;
+                }
+                ul{
+                    li{
+                        margin: 15px 0px;
+                        list-style: none;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}

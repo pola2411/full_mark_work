@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  direction: rtl;
+}
+// variable
+$primarycolor: #83c124;
+$secondrycolor: #2d5767;
+body {
+  background-color: #f7f8f9;
+}
+
+.terms{
+    background-color: white;
+    margin: 30px 0px;
+    padding: 20px;
+    .container{
+        .header{
+            h2{
+                font-weight: lighter;
+            }
+            .users{
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+                h5{
+                    margin: 0px 20px;
+                }
+            }
+        }
+        .service{
+            margin: 40px 0px;
+            h5{
+                font-weight: bold;
+                text-align: center;
+            }
+            p{
+                font-weight: bold;
+                margin: 30px 0px;
+            }
+            
+        }
+        .operation{
+            font-weight: bold;
+            margin-top: 40px;
+            ul{
+                li{
+                    margin: 15px 0px;
+                }
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+        .reason{
+            font-weight: bold;
+            margin-top: 40px;
+            p{
+                font-size: 20px;
+            }
+            ul{
+                li{
+                    margin: 20px 0px;
+                }
+            }
+        }
+        .seller{
+            >div{
+                margin: 25px 0px;
+            }
+            h3{
+                margin: 30px 0px;
+                text-align: center;
+            }
+            p{
+                font-weight: bold;
+                font-size: 17px;
+            }
+            h4{
+                margin-bottom: 20px;
+            }
+            .account{
+                li{
+                    list-style: none;
+                    font-weight: bold;
+                    margin: 15px 0px;
+                }
+            }
+            .sellerlist{
+                li{
+                    
+                font-weight: bold;
+                margin: 15px 0px;
+                }
+            }
+        }
+        .buyer{
+            >div{
+                margin: 25px 0px;
+            }
+            h3{
+                margin: 30px 0px;
+                text-align: center;
+            }
+            p{
+                font-weight: bold;
+                font-size: 17px;
+            }
+            h4{
+                margin-bottom: 20px;
+            }
+            ul{
+                li{
+                font-weight: bold;
+                margin: 20px 0px;
+                }
+            }
+        }
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.terms{
+    p{
+        font-size: 17px;
+    }
+}
+  }

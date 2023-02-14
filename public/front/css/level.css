@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn-green {
+  background-color: #83c124;
+  padding: 13px 25px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+}
+
+body {
+  background-color: #f7f8f9;
+}
+
+.level .header {
+  background-image: url("../images/level/levels-optimized.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 110px 0px;
+  text-align: center;
+  -webkit-filter: saturate(0.9);
+          filter: saturate(0.9);
+}
+
+.level .header h2 {
+  text-shadow: 0px 0px 10px black;
+  color: white;
+  font-weight: bold;
+}
+
+.level .header p {
+  text-shadow: 0px 0px 10px black;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.level .level-details {
+  margin-top: 60px;
+}
+
+.level .level-details .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.level .level-details .row > div h5 {
+  color: black;
+}
+
+.level .level-details .row > div h5 img {
+  margin-left: 30px;
+}
+
+.level .level-details .row > div h4 {
+  text-align: left;
+}
+
+.level .level-details .row > div p {
+  color: gray;
+  font-size: 20px;
+  text-align: left;
+}
+
+.level .level-details .list {
+  text-align: left;
+}
+
+.level .level-details .list h5 {
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.level .level-details .list ul li {
+  list-style: none;
+  margin: 10px 0px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .level .header {
+    background-size: cover;
+    padding: 110px 0px;
+  }
+  .level .header h4 {
+    font-size: 30px;
+  }
+  .level .header p {
+    font-size: 14px;
+  }
+  .level .level-details {
+    margin-top: 50px;
+    padding: 10px 20px;
+  }
+  .level .level-details .row > div h1 {
+    text-align: center;
+  }
+  .level .level-details .row > div p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+}
+/*# sourceMappingURL=level.css.map */

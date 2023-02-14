@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  direction: rtl;
+}
+
+.btn-green {
+  background-color: #83c124;
+  padding: 13px 25px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+}
+
+body {
+  background-color: #f7f8f9;
+}
+
+.news {
+  margin: 30px 0px;
+}
+
+.news .container .content {
+  background-color: white;
+  padding: 30px 20px;
+}
+
+.news .container .no {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=news.css.map */

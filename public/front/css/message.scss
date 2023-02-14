@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  direction: rtl;
+}
+// variable
+$primarycolor: #83c124;
+$secondrycolor: #2d5767;
+
+.message{
+    .container{
+        .content{
+            .table{
+                box-shadow: 0px 0px 10px rgb(112, 110, 110);
+                text-align: center;
+                .text{
+                    width: 45%;
+                    margin: auto;
+                }
+                tr{
+                    border: 1px solid rgba(0, 0, 0, 0.582);
+                    .from,.date{
+                        font-weight: bold;
+                        border: 1px solid rgba(0, 0, 0, 0.582);
+                    }
+                    .to{
+                        font-weight: bold;
+                    }
+                    .admin{
+                        border-left: 1px solid black !important;
+                    }
+                }
+                .btns{
+                    border-bottom: 0px !important;
+                    display: flex;
+                    justify-content: space-evenly;
+                    button{
+                        font-weight: bold;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .message{
+        .container{
+            .content{
+                .table{
+                    thead{
+                        tr{
+                            th{
+                                font-weight: lighter !important;
+                            }
+                        }
+                    }
+                    tr{
+                        .from,.date{
+                            font-weight: lighter;
+                        }
+                        .to{
+                            font-weight: lighter;
+                        }
+                        
+                    }
+                    .btns{
+                        
+                        button{
+                            font-weight: lighter;
+                            padding:4px 6px;
+                            font-size: 12px;
+                        }
+                        button:last-of-type{
+                            margin-right: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

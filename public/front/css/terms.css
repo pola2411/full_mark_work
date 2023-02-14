@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  direction: rtl;
+}
+
+body {
+  background-color: #f7f8f9;
+}
+
+.terms {
+  background-color: white;
+  margin: 30px 0px;
+  padding: 20px;
+}
+
+.terms .container .header h2 {
+  font-weight: lighter;
+}
+
+.terms .container .header .users {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.terms .container .header .users h5 {
+  margin: 0px 20px;
+}
+
+.terms .container .service {
+  margin: 40px 0px;
+}
+
+.terms .container .service h5 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.terms .container .service p {
+  font-weight: bold;
+  margin: 30px 0px;
+}
+
+.terms .container .operation {
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.terms .container .operation ul li {
+  margin: 15px 0px;
+}
+
+.terms .container .operation p {
+  font-size: 20px;
+}
+
+.terms .container .reason {
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.terms .container .reason p {
+  font-size: 20px;
+}
+
+.terms .container .reason ul li {
+  margin: 20px 0px;
+}
+
+.terms .container .seller > div {
+  margin: 25px 0px;
+}
+
+.terms .container .seller h3 {
+  margin: 30px 0px;
+  text-align: center;
+}
+
+.terms .container .seller p {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.terms .container .seller h4 {
+  margin-bottom: 20px;
+}
+
+.terms .container .seller .account li {
+  list-style: none;
+  font-weight: bold;
+  margin: 15px 0px;
+}
+
+.terms .container .seller .sellerlist li {
+  font-weight: bold;
+  margin: 15px 0px;
+}
+
+.terms .container .buyer > div {
+  margin: 25px 0px;
+}
+
+.terms .container .buyer h3 {
+  margin: 30px 0px;
+  text-align: center;
+}
+
+.terms .container .buyer p {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.terms .container .buyer h4 {
+  margin-bottom: 20px;
+}
+
+.terms .container .buyer ul li {
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .terms p {
+    font-size: 17px;
+  }
+}
+/*# sourceMappingURL=terms.css.map */

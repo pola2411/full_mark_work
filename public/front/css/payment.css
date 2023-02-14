@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  direction: rtl;
+}
+
+.btn-green {
+  background-color: #83c124;
+  padding: 13px 25px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+}
+
+.payment {
+  background-color: rgba(190, 190, 190, 0.226);
+  padding: 10px;
+}
+
+.payment .modal .modal-header .btn-close {
+  margin: 0px !important;
+}
+
+.payment .modal .modal-footer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.payment .container .img {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.payment .container .img h3 {
+  margin-left: 13px;
+  font-weight: 400;
+}
+
+.payment .container .img img {
+  width: 60px;
+}
+
+.payment .container .row {
+  margin: 40px 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.payment .container .row .pay {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.payment .container .row .pay > div {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #0070ba;
+  padding: 10px 19px;
+  border-radius: 3px;
+}
+
+.payment .container .row .pay > div img {
+  width: 30px;
+}
+
+.payment .container .row .paydetails {
+  background-color: white;
+  padding: 30px;
+}
+
+.payment .container p {
+  color: #83c124;
+  text-align: center;
+}
+
+.payment .container p img {
+  margin-left: 3px;
+  width: 30px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .payment .pay {
+    margin-bottom: 40px;
+    padding: 40px 0px;
+  }
+}
+/*# sourceMappingURL=payment.css.map */

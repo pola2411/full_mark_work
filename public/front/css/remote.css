@@ -1,0 +1,482 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  direction: rtl;
+}
+
+.gray {
+  color: white !important;
+  background-color: #83c124;
+  padding: 10px;
+  border-radius: 10px;
+  font-style: italic;
+}
+
+body {
+  background-color: #f7f8f9;
+}
+
+.remote {
+  margin-top: 30px;
+}
+
+.remote .container .header h3 {
+  margin-bottom: 20px;
+}
+
+.remote .container .header .icons img {
+  margin: 0px 5px;
+  width: 41px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.remote .container .row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.remote .container .row .right {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.remote .container .row .right .onlie-category {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 10px 20px 10px 0px;
+  border-radius: 5px;
+}
+
+.remote .container .row .right .onlie-category h6 {
+  margin: 15px 0px;
+}
+
+.remote .container .row .right .onlie-category h6 a {
+  text-decoration: none;
+  color: #363636;
+  font-weight: bold;
+  font-size: 14px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.remote .container .row .right .onlie-category h6 a:hover {
+  color: #83c124;
+}
+
+.remote .container .row .right .filter {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.remote .container .row .right .filter button {
+  border: 1px solid #d0d0d0;
+  background-color: rgba(160, 159, 159, 0.582);
+  padding: 10px 20px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  margin-top: 30px;
+  border-radius: 3px;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.remote .container .row .left {
+  background-color: #f7f8f9;
+  padding: 60px 0px;
+}
+
+.remote .container .row .left .one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.remote .container .row .left .one > div {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  width: 30%;
+  margin: 0px auto;
+}
+
+.remote .container .row .left .one > div .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.remote .container .row .left .one > div .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  padding: 0px 5px;
+}
+
+.remote .container .row .left .one > div .info .data a {
+  text-decoration: none;
+  color: #414040;
+}
+
+.remote .container .row .left .one > div .info .data a .img {
+  width: 30px;
+  height: 30px;
+}
+
+.remote .container .row .left .one > div .info .star {
+  color: gold;
+}
+
+.remote .container .row .left .one > div .info .star img {
+  width: 30px;
+  height: 30px;
+}
+
+.remote .container .row .left .one > div .info .zero {
+  color: gray;
+  padding-right: 15px;
+}
+
+.remote .container .row .left .one > div .oneservice a {
+  color: rgba(0, 0, 0, 0.815);
+  text-decoration: none;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.remote .container .row .left .one > div .oneservice a .img {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+}
+
+.remote .container .row .left .one > div .oneservice a .img img {
+  width: 100%;
+  height: 200px;
+}
+
+.remote .container .row .left .one > div .oneservice a p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.remote .container .row .left .one > div:hover a {
+  color: #83c124;
+}
+
+.remote .container .row .left .one > div:hover .info {
+  opacity: 1;
+}
+
+.remote .container .row .left .one > div h6 {
+  color: #83c124;
+  font-weight: bold;
+  padding: 8px 4px;
+  text-align: left;
+}
+
+.remote .container .row .left .second2 {
+  display: none;
+}
+
+.remote .container .row .left .second > div {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 35px;
+}
+
+.remote .container .row .left .second .oneservice a {
+  color: rgba(0, 0, 0, 0.815);
+  text-decoration: none;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.remote .container .row .left .second .oneservice a .img {
+  width: 90%;
+  margin: auto;
+}
+
+.remote .container .row .left .second .oneservice a .img img {
+  width: 100%;
+  height: 200px;
+}
+
+.remote .container .row .left .second .oneservice a p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.remote .container .row .left .second:hover a {
+  color: #83c124;
+}
+
+.remote .container .row .left .second h6 {
+  color: #83c124;
+  font-weight: bold;
+  padding: 8px 4px;
+  text-align: left;
+}
+
+.remote .container .row .left .second .info p {
+  margin-bottom: 35px;
+}
+
+.remote .container .row .left .second .last {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.remote .container .row .left .second .last .data img {
+  width: 30px;
+  border-radius: 10px;
+}
+
+.remote .container .row .left .second .last .data a {
+  color: black;
+  text-decoration: none;
+}
+
+.remote .container .row .left .second .last .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.remote .container .row .left .second .last .all .star {
+  color: gold;
+}
+
+.remote .container .row .left .second .last .all .star img {
+  width: 30px;
+}
+
+.remote .container .row .left .second .last .all .zero {
+  padding-right: 10px;
+}
+
+.remote .container .row button {
+  border: 1px solid #d0d0d0;
+  background-color: #fff;
+  padding: 10px 20px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  margin-top: 30px;
+  border-radius: 3px;
+  color: #777879;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .remote {
+    margin-top: 30px;
+  }
+  .remote .container .header {
+    display: block !important;
+  }
+  .remote .container .header h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    display: block !important;
+    width: 100%;
+    text-align: center;
+  }
+  .remote .container .header .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .remote .container .header .icons img {
+    margin: 0px 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .remote .container .header > div {
+    margin-bottom: 20px;
+  }
+  .remote .container .header > div span {
+    font-size: 14px;
+  }
+  .remote .container .right {
+    width: 90%;
+    margin: auto;
+  }
+  .remote .container .left {
+    padding: 40px 0px !important;
+  }
+  .remote .container .left .one {
+    display: block !important;
+  }
+  .remote .container .left .one > div {
+    width: 90% !important;
+    margin: 20px auto !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .remote {
+    margin-top: 30px;
+  }
+  .remote .container .header h3 {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .remote .container .header > div {
+    margin-bottom: 20px;
+  }
+  .remote .container .header > div span {
+    font-size: 14px;
+  }
+  .remote .container .left {
+    padding: 0px 0px !important;
+  }
+  .remote .container .left .one {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .remote .container .left .one > div {
+    width: 40% !important;
+    margin: 0px auto 30px auto !important;
+  }
+  .remote .container .left .one > div .info {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .remote .container .left .one > div .info .data a {
+    font-size: 10px;
+  }
+  .remote .container .left .one > div .info .all {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .remote .container .left .one > div .info .star img {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  .remote .container .left .one > div .info .zero {
+    font-size: 10px;
+    padding-right: 9px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .remote {
+    margin-top: 30px;
+  }
+  .remote .container .header h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .remote .container .header > div {
+    margin-bottom: 20px;
+  }
+  .remote .container .header > div span {
+    font-size: 14px;
+  }
+  .remote .container .left {
+    padding: 0px 0px !important;
+  }
+  .remote .container .left .one {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .remote .container .left .one > div {
+    width: 30% !important;
+    margin: 0px auto 30px auto !important;
+  }
+  .remote .container .left .one > div .all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .remote .container .left .one > div .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    padding: 0px 5px;
+  }
+  .remote .container .left .one > div .info .data a {
+    text-decoration: none;
+    color: #414040;
+    font-size: 15px !important;
+  }
+  .remote .container .left .one > div .info .data a .img {
+    width: 30px;
+    height: 30px;
+  }
+  .remote .container .left .one > div .info .star {
+    color: gold;
+  }
+  .remote .container .left .one > div .info .star img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .remote .container .left .one > div .info .zero {
+    color: gray;
+    padding-right: 15px;
+    font-size: 15px !important;
+  }
+}
+/*# sourceMappingURL=remote.css.map */

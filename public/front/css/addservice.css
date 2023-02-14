@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  direction: rtl;
+}
+
+.btn-green {
+  background-color: #83c124;
+  padding: 13px 25px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+}
+
+body {
+  background-color: #f7f8f9;
+}
+
+.addservice {
+  margin-top: 30px;
+}
+
+.addservice .container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 70% !important;
+  margin: auto;
+}
+
+.addservice .container h3 {
+  margin: 20px 0px;
+}
+
+.addservice .container .content form label {
+  font-weight: bold;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .addservice .container {
+    width: 90% !important;
+    margin: auto !important;
+  }
+}
+/*# sourceMappingURL=addservice.css.map */

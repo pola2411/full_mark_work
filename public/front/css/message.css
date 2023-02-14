@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  direction: rtl;
+}
+
+.message .container .content .table {
+  -webkit-box-shadow: 0px 0px 10px #706e6e;
+          box-shadow: 0px 0px 10px #706e6e;
+  text-align: center;
+}
+
+.message .container .content .table .text {
+  width: 45%;
+  margin: auto;
+}
+
+.message .container .content .table tr {
+  border: 1px solid rgba(0, 0, 0, 0.582);
+}
+
+.message .container .content .table tr .from, .message .container .content .table tr .date {
+  font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, 0.582);
+}
+
+.message .container .content .table tr .to {
+  font-weight: bold;
+}
+
+.message .container .content .table tr .admin {
+  border-left: 1px solid black !important;
+}
+
+.message .container .content .table .btns {
+  border-bottom: 0px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.message .container .content .table .btns button {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .message .container .content .table thead tr th {
+    font-weight: lighter !important;
+  }
+  .message .container .content .table tr .from, .message .container .content .table tr .date {
+    font-weight: lighter;
+  }
+  .message .container .content .table tr .to {
+    font-weight: lighter;
+  }
+  .message .container .content .table .btns button {
+    font-weight: lighter;
+    padding: 4px 6px;
+    font-size: 12px;
+  }
+  .message .container .content .table .btns button:last-of-type {
+    margin-right: 6px;
+  }
+}
+/*# sourceMappingURL=message.css.map */

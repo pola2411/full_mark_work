@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  direction: rtl;
+}
+// variable
+$primarycolor: #83c124;
+$secondrycolor: #2d5767;
+
+.blog {
+  background-color: #f7f7f7 !important;
+  padding: 30px 0px;
+  .container {
+    .row {
+        >div{
+         background-color: white; 
+         padding: 20px 60px;  
+         border-radius: 20px;
+         margin:50px auto;
+        h3{
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .img{
+            width: 80%;
+            margin: auto;
+            img{
+                width: 100%;
+            }
+        }
+        ul{
+            li{
+                list-style: none;
+                font-weight: bold;
+                margin: 20px 0px;
+                font-size: 17px;
+                line-height: 1.8;
+            }
+        }
+        .caption{
+            h4{
+                text-align: center;
+                color: #a30004;
+            }
+        }
+        }
+        p{
+            text-align: center;
+            color: gray;
+        }
+    }
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .blog {
+        background-color: #f7f7f7 !important;
+        padding: 30px 25px;
+        .container {
+          .row {
+              >div{
+                width: 90%;
+               background-color: white; 
+               padding: 20px 10px;  
+               border-radius: 20px;
+               margin:30px auto;
+              h3{
+                  margin-bottom: 30px;
+                  font-size: 14px;
+              }
+              .img{
+                  width: 90%;
+                  margin: auto;
+                  img{
+                      width: 100%;
+                  }
+              }
+              ul{
+                  li{
+                      list-style: none;
+                      font-weight: bold;
+                      margin: 20px 0px;
+                      font-size: 14px;
+                      line-height: 1.8;
+                  }
+              }
+              .caption{
+                  h4{
+                      text-align: center;
+                      color: #a30004;
+                      font-size: 18px;
+                  }
+              }
+              }
+              p{
+                  text-align: center;
+                  color: gray;
+              }
+          }
+        }
+      }
+}
